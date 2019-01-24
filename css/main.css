@@ -52,6 +52,7 @@ ul{
     display: flex;
     justify-content: space-around;
     margin-top: 75px;
+	flex-wrap:wrap;
 }
 li{
     display: block;
@@ -68,6 +69,7 @@ li{
     background-repeat: no-repeat;
     transition: all 1s ease-in-out;
     outline: none;
+	margin:10px;
 }
 .winter{
     background-image:url(../img/door.jpg), url(../img/door.jpg),  url(../img/imgWinter.jpg);
@@ -95,4 +97,20 @@ li{
 .door:active{
     border: 2px solid #7CB6FD;
 }
-
+/*адаптация------------------------------------------------------------------------------*/
+@media screen and (max-width: 940px){
+	.door{
+		margin:20px;
+	}
+	.wrepper{
+		height:auto;
+	}
+}
+@media screen and (max-width: 540px){
+	.door{
+		margin:10px;
+	}
+	ul{
+	padding-left:0;
+}
+}
