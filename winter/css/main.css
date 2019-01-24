@@ -127,3 +127,30 @@ margin-bottom: 2px;
 .social li{
 	list-style: none;
 }
+/* адаптация----------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1050px) {
+	.wrepper{
+		width: calc(100% / 3 - 40px);
+		
+	}
+}
+@media screen and (max-width: 800px){
+	.wrepper{
+		width: calc(100% / 2 - 40px);
+		
+	}
+}
+@media screen and (max-width: 530px){
+	.wrepper{
+		width: calc(100% / 1 - 100px);
+		margin:50px 50px;
+		
+	}
+}
+@media screen and (max-width: 350px){
+	.wrepper{
+		width: calc(100% / 1 - 20px);
+		margin:20px 10px;
+		
+	}
+}
