@@ -93,15 +93,19 @@ body{
 	flex-wrap: wrap;
 }
 .wrepper{
-	width: calc (100% / 4 - 40px);
-	margin: 20px;
+	height: 310px;
+	width: calc(100% / 4 - 40px);
+	margin:50px 20px;
+	border: 10px solid #40c4c8;
+	border-image: url(../img/bdima.jpg) 30 round round;
 }
 .wrepper p{
 
 }
 .wrepper img{
+	object-fit: cover;
 	display: block;
-	width: 300px;
+	width: 280px;
 }
 .social{
 	height: 30px;
